@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    position:relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;   
+    font-family: Poppins;
+    text-decoration: none;
+}
+
+
+main {
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #190a32;
+}
+
+.mainNavbar {
+    z-index: 2;
+    height: 48px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #37008f;
+}
+
+.navbarBrand {
+    color: #fefcfbab;
+    margin-left: 30px;
+}
+
+.navbarBrand:hover {
+    color: #fefcfb;
+}
+
+.navbarContent {
+    float: right;
+    margin-right: 30px;
+}
+
+.navbarButton {
+    color: #fefcfbab;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1em;
+    font-weight: 400;
+    padding-bottom: 11px;
+}
+
+.navbarButton:hover {
+    color: #fefcfb;
+    border-bottom: #fefcfb 3px solid;
+}
+
+.Active {
+    font-weight: 600;
+    color: #fefcfb;
+    border-bottom: #fefcfbab 3px solid;
+}
+
+.active {
+    font-weight: 600;
+    color: #fefcfb;
+}
+
+.container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container h1 {
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #fefcfb;
+}
+
+.content {
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 50em; 
+    height: 18em;
+    margin: auto;
+    font-size:medium;
+    font-weight: bold;
+    border-radius: 10em;
+    background-color: #443068d0;
+    border: 2.5px solid ;
+    color: #fefcfb; 
+}
+
+.content a {
+    margin: auto;
+}
+
+.content a img {
+    width: 12em;
+    height: 12em;
+    border-radius: 100%;
+    border: 2.5px solid #fefcfb;
+    justify-content: center; 
+    margin: auto;
+}
+
+.content a img:hover {
+    box-shadow: rgba(255, 255, 255, 0.652) 0px 1px 60px 0px;
+}
+
+.fotoPahlawan img {
+    width: 12em;
+    height: 12em;
+    border-radius: 100%;
+    border: 2.5px solid #fefcfb;
+    justify-content: center; 
+    margin: auto;
+    margin-left: 50px;
+}
+
+.content p {
+    font-family: Lexend, sans-serif; 
+    font-style: normal; 
+    font-weight: 100; 
+    font-size: medium; 
+    justify-content: center; 
+    justify-items: center; 
+    margin: auto; 
+}
+
+.content ul {
+    padding-top: 10%;
+}
