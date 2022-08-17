@@ -15,7 +15,7 @@ main {
     position:fixed;
     width: 100%;
     height: 100%;
-    background-color: #190a32;
+    background-color: rgb(45, 49, 51);
 }
 
 .mainNavbar {
@@ -28,16 +28,16 @@ main {
     margin: 0%;
     padding-top: 2px;
     padding-bottom: 2px;
-    background-color: #37008f;
+    background-color: rgb(74, 57, 102);
 }
 
 .navbarBrand {
-    color: #fefcfbab;
+    color: rgba(255, 203, 177, 0.67);
     margin-left: 30px;
 }
 
 .navbarBrand:hover {
-    color: #fefcfb;
+    color: rgb(255, 203, 177);
 }
 
 .navbarContent {
@@ -46,7 +46,7 @@ main {
 }
 
 .navbarButton {
-    color: #fefcfbab;
+    color: rgba(255, 203, 177, 0.67);
     margin-right: 10px;
     margin-left: 10px;
     font-size: 1em;
@@ -55,19 +55,19 @@ main {
 }
 
 .navbarButton:hover {
-    color: #fefcfb;
-    border-bottom: #fefcfb 3px solid;
+    color: rgb(255, 203, 177);
+    border-bottom: rgb(255, 203, 177) 3px solid;
 }
 
 .Active {
     font-weight: 600;
-    color: #fefcfb;
-    border-bottom: #fefcfbab 3px solid;
+    color: rgb(255, 203, 177);
+    border-bottom: rgba(255, 203, 177, 0.67) 3px solid;
 }
 
 .active {
     font-weight: 600;
-    color: #fefcfb;
+    color: rgb(255, 203, 177);
 }
 
 .container {
@@ -83,7 +83,7 @@ main {
     margin: auto;
     margin-top: 100px;
     margin-bottom: 30px;
-    color: #fefcfb;
+    color: rgb(255, 203, 177);
 }
 
 .content {
@@ -97,9 +97,9 @@ main {
     font-size:medium;
     font-weight: bold;
     border-radius: 10em;
-    background-color: #443068d0;
+    background-color: rgba(76, 58, 107, 0.82);
     border: 2.5px solid ;
-    color: #fefcfb; 
+    color: rgb(255, 203, 177); 
 }
 
 .content a {
@@ -110,7 +110,7 @@ main {
     width: 12em;
     height: 12em;
     border-radius: 100%;
-    border: 2.5px solid #fefcfb;
+    border: 2.5px solid rgb(255, 203, 177);
     justify-content: center; 
     margin: auto;
 }
@@ -123,7 +123,7 @@ main {
     width: 12em;
     height: 12em;
     border-radius: 100%;
-    border: 2.5px solid #fefcfb;
+    border: 2.5px solid rgb(255, 203, 177);
     justify-content: center; 
     margin: auto;
     margin-left: 50px;
